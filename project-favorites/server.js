@@ -17,4 +17,8 @@ http.createServer((req, res) => {
         res.end(content)
     })
     
+    // console.log(URL.parse(req.url, true))
+    
+    
 }).listen(5000, ()=>console.log('O servidor está rodando!'))
+
